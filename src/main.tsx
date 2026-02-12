@@ -85,7 +85,7 @@ app.post('/delete/:id', async (c) => {
 app.notFound((c) => {
   return c.html(
     <ErrorPage>
-      <h1>ekkert að finna hér ;-)</h1>
+      <h1>ekkert að finna hér ;-))</h1>
     </ErrorPage>,
     404
   );
