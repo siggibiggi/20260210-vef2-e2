@@ -9,8 +9,8 @@ type TodoPageProps = {
 };
 
 export const TodoPage: FC<TodoPageProps> = ({ todos = [] }) => {
-  const finished = todos.filter(i => i.finished === true)
-  const unfinished = todos.filter(i => !i.finished)
+  //const finished = todos.filter(i => i.finished === true)
+  //const unfinished = todos.filter(i => !i.finished)
 
   return (
     <Layout title="TodoListinn">

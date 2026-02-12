@@ -24,7 +24,7 @@ app.get('/', async (c) => {
 
 app.post('/add', async (c) => {
   const body = await c.req.parseBody();
-  console.log(body)
+  //console.log(body)
 
   const result = TodoItemSchema.safeParse(body)
 

@@ -72,7 +72,7 @@ export async function init(): Promise<boolean> {
       created TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
     )
   `;
-  const result = await query(q);
+  await query(q);
 
   return true
 }
